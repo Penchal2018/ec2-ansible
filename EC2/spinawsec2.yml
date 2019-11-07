@@ -8,9 +8,9 @@
     vars:
       instance_type: t2.micro
       security_group: webservers
-      image: ami-0080e4c5bc078760e
-      region: us-east-1
-      keypair: NVirginia
+      image: ami-0c322300a1dd5dc79
+      region: us-east-1a
+      keypair: keypair
       count: 1
 
     tasks:
